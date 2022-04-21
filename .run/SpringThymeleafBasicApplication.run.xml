@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringThymeleafBasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="spring-thymeleaf-basic" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="hac.springthymeleafbasic.SpringThymeleafBasicApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
