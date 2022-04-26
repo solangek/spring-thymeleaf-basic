@@ -3,6 +3,7 @@
     <module name="spring-thymeleaf-basic" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="hac.springthymeleafbasic.SpringThymeleafBasicApplication" />
     <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
