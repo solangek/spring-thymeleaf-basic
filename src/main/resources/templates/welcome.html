@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Spring Boot Thymeleaf Hello World Example</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- note the path to static resources folder -->
     <link rel="stylesheet" href="/css/main.css"/>
     <script src="/main.js"></script>
 
@@ -29,7 +30,7 @@
     <p>Notice that this page loads a javascript and CSS file: open the inspector, and check the network and console tabs.</p>
     Here is the data passed to the view:
     <ol>
-        <li th:each="task : ${tasks}" th:text="${task}">   </li>
+        <li th:each="task : ${tasks}" th:text="${task}"></li>
     </ol>
     Try also <a href="hello?name=someone">this http/get controller</a>.
     <p>Here is the same http/post controller:</p>

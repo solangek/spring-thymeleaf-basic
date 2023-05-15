@@ -39,7 +39,7 @@ public class HelloWorldController {
         model.addAttribute("message", message);
         model.addAttribute("tasks", tasks);
 
-        return "welcome"; //view
+        return "welcome"; //view welcome.html
     }
 
     /** hello?name=someone
